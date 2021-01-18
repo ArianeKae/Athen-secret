@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const _ = require('lodash');
 const encrypt = require("mongoose-encryption");
 
+console.log(process.env.API_KEY);
 
 const app = express();
 app.set('view engine', 'ejs');
